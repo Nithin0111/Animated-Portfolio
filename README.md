@@ -7,9 +7,9 @@
   <h3 align="center">My Portfolio Animated</h3
   
 ### ScreenShots
-  
+ <a href="https://github.com/Nithin0111/Animated-Portfolio/Screenshots">
    <img src="images/Screenshot_2020-06-01 Portfolio animated(3).png" alt="Home Page ScreenSHot">
-  
+ </a> 
 
 ### Built With
 * [Html5](https://html.com/html5/)
