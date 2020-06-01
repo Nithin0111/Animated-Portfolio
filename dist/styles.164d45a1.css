@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.titlePic {
+  height: 50px;
+  border-radius: 24px;
+}
+
+.nav-list {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  margin: 0px 20px;
+}
+
+.footer-icons {
+  margin: 0px 60px;
+}
+
+.homePage, .aboutPage, .contactPage {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
+.homeContent {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.homeContent h1 {
+  font-size: 26px;
+  letter-spacing: 0.341em;
+  line-height: 2;
+  font-style: italic;
+  animation: drop 1.5s ease;
+}
+.homeContent p {
+  font-size: 25px;
+  letter-spacing: 0.281em;
+  line-height: 2;
+  font-style: italic;
+  animation: drop 1.5s ease;
+}
+.homeContent img {
+  height: 80%;
+  animation: drop 1.5s ease;
+}
+
+.homeButton {
+  width: 150px;
+  height: 50px;
+  border-radius: 24px;
+  border: 2px solid cornflowerblue;
+  line-height: 2;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 20px;
+  cursor: pointer;
+  animation: drop 1.5s ease;
+}
+
+.homeButton:hover {
+  background-color: cornflowerblue;
+}
+
+.homePage {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.aboutContent {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutContent h1 {
+  margin-top: 100px;
+  margin-left: 100px;
+  letter-spacing: 0.335em;
+  font-style: italic;
+  line-height: 2;
+  animation: drop 1.5s ease;
+}
+.aboutContent p {
+  letter-spacing: 0.335em;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 22px;
+  animation: drop 1.5s ease;
+}
+.aboutContent .aboutPic {
+  width: 40%;
+  margin-bottom: 100px;
+  animation: drop 1.5s ease;
+}
+.aboutContent .skills-imgs {
+  width: 100px;
+  height: 100px;
+  margin-left: 150px;
+  margin-top: 60px;
+  animation: drop 1.5s ease;
+}
+
+.aboutPage {
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+.contactContent {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactContent h1 {
+  font-size: 34px;
+  line-height: 2;
+  letter-spacing: 0.228em;
+  margin-left: 100px;
+  font-style: italic;
+  animation: drop 1.5s ease;
+}
+.contactContent .form-container {
+  width: 50px;
+  margin-left: 100px;
+}
+.contactContent .form-style {
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  border-radius: 24px;
+  margin-top: 30px;
+  border: 2px solid coral;
+  transition: 0.25s;
+}
+.contactContent .form-style:focus {
+  width: 500px;
+  border: 2px solid cadetblue;
+}
+
+.contactButton {
+  width: 300px;
+  height: 50px;
+  border-radius: 50px 20px;
+  border: 2px solid cornflowerblue;
+  line-height: 2;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  background-color: #d1ee71;
+}
+
+.contactPage {
+  background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .homeContent {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .homeContent img {
+    height: 700px;
+    width: 700px;
+  }
+
+  .aboutContent {
+    flex-direction: column;
+  }
+  .aboutContent img {
+    margin-left: 200px;
+  }
+
+  .skillImageContainer {
+    margin: 20px;
+  }
+
+  .contactContent {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */

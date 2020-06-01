@@ -1,0 +1,222 @@
+
+// Default html reset
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+// Navigation bar all of it
+// Title image in navbar
+.titlePic{
+    height: 50px;
+    border-radius: 24px;
+}
+
+// Total container of navigation bar icons
+.nav-list{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    
+}
+// navigation icons i.e list items
+.nav-links{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+}
+// Social media icons on navbar
+.footer-icons{
+    margin: 0px 60px;
+}
+
+
+// Setting height and width and position of all the pages
+.homePage,.aboutPage,.contactPage{
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+
+// home page styling
+.homeContent{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    h1{
+        font-size: 26px;
+        letter-spacing: 0.341em;
+        line-height: 2;
+        font-style: italic;
+        animation: drop 1.5s ease;
+    }
+    p{
+        font-size: 25px;
+        letter-spacing: 0.281em;
+        line-height: 2;
+        font-style: italic;
+        animation: drop 1.5s ease;
+    }
+    img{
+        height: 80%;
+        animation: drop 1.5s ease;
+    }
+
+}
+//home page button styling also used in contact page's submit button
+.homeButton{
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    border: 2px solid cornflowerblue;
+    line-height: 2;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 20px;
+    cursor: pointer;
+    animation: drop 1.5s ease;
+}
+
+.homeButton:hover{
+    background-color: cornflowerblue;
+}
+// Gradient styling of homepage provided by webgradients.com
+.homePage{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+// About page styling
+.aboutContent{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    h1{
+        margin-top: 100px;
+        margin-left: 100px;
+        letter-spacing: 0.335em;
+        font-style: italic;
+        line-height: 2;
+        animation: drop 1.5s ease;
+    }
+    p{
+        letter-spacing: 0.335em;
+        margin-left: 100px;
+        margin-top: 20px;
+        font-style: italic;
+        font-size: 22px;
+        animation: drop 1.5s ease;
+    }
+    .aboutPic{
+        width: 40%;
+        margin-bottom: 100px;
+        animation: drop 1.5s ease;
+    }
+    .skills-imgs{
+        width: 100px;
+        height: 100px;
+        margin-left: 150px;
+        margin-top: 60px;
+        animation: drop 1.5s ease;
+    }
+}
+// Gradient styling of about page
+.aboutPage{
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+// Contact page styling
+.contactContent{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    h1{
+        font-size: 34px;
+        line-height: 2;
+        letter-spacing: 0.228em;
+        margin-left: 100px;
+        font-style: italic;
+        animation: drop 1.5s ease;
+    }
+    .form-container{
+        width: 50px;
+        margin-left: 100px;
+    }
+    .form-style{
+        text-align: center;
+        width: 400px;
+        height: 50px;
+        border-radius: 24px;
+        margin-top: 30px;
+        border: 2px solid coral;
+        transition: 0.25s;
+    }
+    .form-style:focus{
+        width: 500px;
+        border: 2px solid cadetblue;
+    }
+}
+// Newsletter button styling
+.contactButton{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px 20px;
+    border: 2px solid cornflowerblue;
+    line-height: 2;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.contactButton:hover{
+    background-color: #d1ee71;
+}
+// Contact page gradient setting
+.contactPage{
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+}
+
+// animation
+
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+//media queries
+@media screen and (max-width:1024px){
+    .homeContent{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        img{
+            height: 700px;
+            width: 700px;
+        }
+    }
+    .aboutContent{
+        flex-direction: column;
+        img{
+            margin-left: 200px;
+        }
+    }
+    .skillImageContainer{
+        margin:20px;
+    }
+    .contactContent{
+        flex-direction: column;
+    }
+
+}
