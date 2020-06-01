@@ -1,8 +1,12 @@
 # Animated-Portfolio
-
+  <br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/myAvatar.png" alt="Logo" width="80" height="80">
+  </a>
   <h3 align="center">My Portfolio Animated</h3
   
-  ### ScreenShots
+### ScreenShots
   Refer to screenshots folder in this repository to see them
 
 ### Built With
