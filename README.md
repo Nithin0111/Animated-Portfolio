@@ -8,9 +8,9 @@
   
 ### ScreenShots
 
-   <img src="https://github.com/Nithin0111/Animated-Portfolio/tree/master/Screenshots/Screenshot_2020-06-01%20Portfolio%20animated(1).png" alt="Home Page ScreenSHot">
-   <img src="https://github.com/Nithin0111/Animated-Portfolio/tree/master/Screenshots/Screenshot_2020-06-01%20Portfolio%20animated(2).png" alt="About Page ScreenSHot">
-   <img src="https://github.com/Nithin0111/Animated-Portfolio/tree/master/Screenshots/Screenshot_2020-06-01%20Portfolio%20animated(3).png" alt="Contact Page ScreenSHot">
+   <img src="https://github.com/Nithin0111/Animated-Portfolio/tree/master/Screenshots/Screenshot_2020-06-01%20Portfolio%20animated.png" alt="Home Page ScreenSHot">
+   <img src="https://github.com/Nithin0111/Animated-Portfolio/tree/master/Screenshots/Screenshot_2020-06-01%20Portfolio%20animated(1).png" alt="About Page ScreenSHot">
+   <img src="https://github.com/Nithin0111/Animated-Portfolio/tree/master/Screenshots/Screenshot_2020-06-01%20Portfolio%20animated(2).png" alt="Contact Page ScreenSHot">
   
 
 ### Built With
