@@ -1,13 +1,9 @@
 # Animated-Portfolio
 
-<br />
-<p align="center">
-  <a href="https://github.com/nithin0111">
-    <img src="#" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">My Portfolio Animated</h3>
-
+  <h3 align="center">My Portfolio Animated</h3
+  
+  ### ScreenShots
+  Refer to screenshots folder in this repository to see them
 
 ### Built With
 * [Html5](https://html.com/html5/)
@@ -30,7 +26,7 @@
 If you don't have the prerequisites and you dont know how to install them please google it and find out
 
 <!-- GETTING STARTED -->
-## How to Run this project n your pc
+## How to Run this project on your pc
 
 Clone or download all these files
 
@@ -64,12 +60,18 @@ Note:Same directory as this project
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+After you have installed all the npm packages with no errors then tyoe the command shown below
 
-_For more examples, please refer to the [Documentation]_
+```sh
+parcel index.html
+```
+Note:you have to be in the same directory as the index.html file otherwise this will generate a error so please take care of that
 
-
-
+After you entered the command in command line it will generate a link the link is
+```sh
+http://localhost:1234
+```
+Click on the link and your project will open
 <!-- ROADMAP -->
 ## Roadmap
 
