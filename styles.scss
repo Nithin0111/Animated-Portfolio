@@ -220,3 +220,66 @@
     }
 
 }
+
+@media (max-width:530px)
+{   
+    .homePage{
+        width: 100%;
+    }
+    .homeButton{
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .homeContent{
+        h1{
+            font-size: 20px;
+            margin-top: 75px;
+            text-align: center;
+            padding: 0px 25px;
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+        }
+        img{
+            height: 75%;
+            width: 75%;
+            
+        }
+    }
+    .aboutPage{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .aboutContent{
+        margin-top: 50px;
+        .skills-imgs{
+            width: 10%;
+            height: 10%;
+        }
+        .aboutPic{
+            margin-top: 50px;
+            width: 60%;
+        }
+    }
+    .contactPage{
+        width: 100%;
+        height: 100%;
+    }
+    .contactContent{
+        margin-top: 200px;
+        .form-style{
+            width: 200px;
+            height: 35px;
+        }
+        .form-style:focus{
+            width: 300px;
+        }
+        img{
+            width: 70%;
+            height: 70%;
+        }
+    }
+}
